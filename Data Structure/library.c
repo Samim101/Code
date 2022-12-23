@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include <string.h>
 
-int b=12;
+int b=10;
 
 struct details
 {
     char book_name[50];
     char writer_name[50];
     int quantity;
-}book[100];
+} book[100];
 
 int binarySearch(struct details array[], char x[], int low, int high)
 {
@@ -237,9 +237,9 @@ void printDB(int n)
         merge_sort_writer(book,0,n-1);
         for(int i=0; i<n; i++)
         {
-        printf("Writer's name: %s\n",book[i].writer_name);
-        printf("Book Name: %s\n",book[i].book_name);
-        printf("We have %d copy/copies\n\n\n",book[i].quantity);
+            printf("Writer's name: %s\n",book[i].writer_name);
+            printf("Book Name: %s\n",book[i].book_name);
+            printf("We have %d copy/copies\n\n\n",book[i].quantity);
         }
     }
     else

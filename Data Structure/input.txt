@@ -8,5 +8,3 @@ Hound_of_The_Baskervilles Aurthur_Conan_Doyale 14
 Krishno_Pokkho Humayun_Ahmed 19
 Devdas Sarat_Chandra_Chattopadhyay 2
 Pother_Panchali Bibhutibhushan_Bandyopadhyay 8
-Hg ff 6
-Aa st 4
